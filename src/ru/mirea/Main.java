@@ -29,10 +29,6 @@ public class Main {
 
         System.out.println(pn);
         System.out.println(pn2);
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> main
     }
 }
