@@ -10,8 +10,14 @@ public class Shirt {
     }
 
     public void output(){
+        String str[];
         for (String s: shirts) {
-            System.out.println(s);
+            str = s.split(",");
+            System.out.println("Kod: " + str[0]);
+            System.out.println("Name: " + str[1]);
+            System.out.println("Color: " + str[2]);
+            System.out.println("Size: " + str[3] + "\n\n");
+            
         }
     }
 
